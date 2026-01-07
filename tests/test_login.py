@@ -8,7 +8,7 @@ def test_valid_login(logged_in_page):
 
     assert login_page.page.url.endswith("/inventory.html")
     
-@pytest.mark.parametrize("username,password, error_message", [
+@pytest.mark.parametrize("username, password, error_message", [
     ("", "", "Epic sadface: Username is required"),
     ("standard_user", "", "Epic sadface: Password is required"),
     ("", "secret_sauce", "Epic sadface: Username is required"),

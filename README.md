@@ -9,14 +9,14 @@ This project is an end-to-end test automation framework built to test the SauceD
 -pytest
 -pytest-html
 
-#Project Structure
-\---pages/# Page Object Models
-\---tests/# Test cases
-\---utils/# Test data and helpers
-\---reports/# Test reports (generated)
-\---conftest.py # pytest fixtures and hooks
-\---requirements.txt
-\---README.md
+#Project Structure  
+\---pages/# Page Object Models  
+\---tests/# Test cases  
+\---utils/# Test data and helpers  
+\---reports/# Test reports (generated)  
+\---conftest.py # pytest fixtures and hooks  
+\---requirements.txt  
+\---README.md  
 
 #How to Run Tests
 

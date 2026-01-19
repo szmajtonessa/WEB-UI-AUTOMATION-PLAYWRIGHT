@@ -30,7 +30,4 @@ class InventoryPage:
         if self.remove_backpack_from_cart_button.is_visible():
             self.remove_backpack_from_cart_button.click()
 
-    # def add_to_cart(self):
-    #     while self.add_to_cart_buttons.count() > 0:
-    #         self.add_to_cart_buttons.first.click()
         

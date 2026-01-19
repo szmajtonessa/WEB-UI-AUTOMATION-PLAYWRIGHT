@@ -10,6 +10,7 @@ This project is an end-to-end test automation framework built to test the SauceD
 -pytest-html  
   
 #Project Structure  
+  
 \---pages/# Page Object Models  
 \---tests/# Test cases  
 \---utils/# Test data and helpers  
